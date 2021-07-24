@@ -1,0 +1,12 @@
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+potenciometer\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+potenciometer\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+potenciometer\port.o: ../Inc/FreeRTOSConfig.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+potenciometer\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

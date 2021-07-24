@@ -1,0 +1,15 @@
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+potenciometer\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+potenciometer\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+potenciometer\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+potenciometer\timers.o: ../Inc/FreeRTOSConfig.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+potenciometer\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h

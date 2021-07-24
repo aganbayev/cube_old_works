@@ -1,0 +1,13 @@
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+potenciometer\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+potenciometer\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+potenciometer\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+potenciometer\heap_4.o: ../Inc/FreeRTOSConfig.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+potenciometer\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

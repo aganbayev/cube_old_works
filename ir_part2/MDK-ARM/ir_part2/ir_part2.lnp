@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"ir_part2\startup_stm32f429xx.o"
+"ir_part2\main.o"
+"ir_part2\stm32f4xx_it.o"
+"ir_part2\stm32f4xx_hal_msp.o"
+"ir_part2\stm32f4xx_hal_tim.o"
+"ir_part2\stm32f4xx_hal_tim_ex.o"
+"ir_part2\stm32f4xx_hal_uart.o"
+"ir_part2\stm32f4xx_hal_rcc.o"
+"ir_part2\stm32f4xx_hal_rcc_ex.o"
+"ir_part2\stm32f4xx_hal_flash.o"
+"ir_part2\stm32f4xx_hal_flash_ex.o"
+"ir_part2\stm32f4xx_hal_flash_ramfunc.o"
+"ir_part2\stm32f4xx_hal_gpio.o"
+"ir_part2\stm32f4xx_hal_dma_ex.o"
+"ir_part2\stm32f4xx_hal_dma.o"
+"ir_part2\stm32f4xx_hal_pwr.o"
+"ir_part2\stm32f4xx_hal_pwr_ex.o"
+"ir_part2\stm32f4xx_hal_cortex.o"
+"ir_part2\stm32f4xx_hal.o"
+"ir_part2\stm32f4xx_hal_exti.o"
+"ir_part2\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ir_part2\ir_part2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ir_part2.map" -o ir_part2\ir_part2.axf

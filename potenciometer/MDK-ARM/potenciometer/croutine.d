@@ -1,0 +1,14 @@
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+potenciometer\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+potenciometer\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+potenciometer\croutine.o: ../Inc/FreeRTOSConfig.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+potenciometer\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

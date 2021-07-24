@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"project_cube2\startup_stm32f429xx.o"
+"project_cube2\main.o"
+"project_cube2\stm32f4xx_it.o"
+"project_cube2\stm32f4xx_hal_msp.o"
+"project_cube2\stm32f4xx_hal_tim.o"
+"project_cube2\stm32f4xx_hal_tim_ex.o"
+"project_cube2\stm32f4xx_hal_uart.o"
+"project_cube2\stm32f4xx_hal_rcc.o"
+"project_cube2\stm32f4xx_hal_rcc_ex.o"
+"project_cube2\stm32f4xx_hal_flash.o"
+"project_cube2\stm32f4xx_hal_flash_ex.o"
+"project_cube2\stm32f4xx_hal_flash_ramfunc.o"
+"project_cube2\stm32f4xx_hal_gpio.o"
+"project_cube2\stm32f4xx_hal_dma_ex.o"
+"project_cube2\stm32f4xx_hal_dma.o"
+"project_cube2\stm32f4xx_hal_pwr.o"
+"project_cube2\stm32f4xx_hal_pwr_ex.o"
+"project_cube2\stm32f4xx_hal_cortex.o"
+"project_cube2\stm32f4xx_hal.o"
+"project_cube2\stm32f4xx_hal_exti.o"
+"project_cube2\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "project_cube2\project_cube2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "project_cube2.map" -o project_cube2\project_cube2.axf

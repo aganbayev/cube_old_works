@@ -1,0 +1,16 @@
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+potenciometer\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+potenciometer\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+potenciometer\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+potenciometer\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+potenciometer\tasks.o: ../Inc/FreeRTOSConfig.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+potenciometer\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h
