@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"distance1_sensors\startup_stm32f429xx.o"
+"distance1_sensors\main.o"
+"distance1_sensors\stm32f4xx_it.o"
+"distance1_sensors\stm32f4xx_hal_msp.o"
+"distance1_sensors\stm32f4xx_hal_adc.o"
+"distance1_sensors\stm32f4xx_hal_adc_ex.o"
+"distance1_sensors\stm32f4xx_hal_tim.o"
+"distance1_sensors\stm32f4xx_hal_tim_ex.o"
+"distance1_sensors\stm32f4xx_hal_uart.o"
+"distance1_sensors\stm32f4xx_hal_rcc.o"
+"distance1_sensors\stm32f4xx_hal_rcc_ex.o"
+"distance1_sensors\stm32f4xx_hal_flash.o"
+"distance1_sensors\stm32f4xx_hal_flash_ex.o"
+"distance1_sensors\stm32f4xx_hal_flash_ramfunc.o"
+"distance1_sensors\stm32f4xx_hal_gpio.o"
+"distance1_sensors\stm32f4xx_hal_dma_ex.o"
+"distance1_sensors\stm32f4xx_hal_dma.o"
+"distance1_sensors\stm32f4xx_hal_pwr.o"
+"distance1_sensors\stm32f4xx_hal_pwr_ex.o"
+"distance1_sensors\stm32f4xx_hal_cortex.o"
+"distance1_sensors\stm32f4xx_hal.o"
+"distance1_sensors\stm32f4xx_hal_exti.o"
+"distance1_sensors\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "distance1_sensors\distance1_sensors.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "distance1_sensors.map" -o distance1_sensors\distance1_sensors.axf

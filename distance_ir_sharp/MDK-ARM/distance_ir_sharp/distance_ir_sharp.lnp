@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"distance_ir_sharp\startup_stm32f439xx.o"
+"distance_ir_sharp\main.o"
+"distance_ir_sharp\stm32f4xx_it.o"
+"distance_ir_sharp\stm32f4xx_hal_msp.o"
+"distance_ir_sharp\stm32f4xx_hal_adc.o"
+"distance_ir_sharp\stm32f4xx_hal_adc_ex.o"
+"distance_ir_sharp\stm32f4xx_hal_tim.o"
+"distance_ir_sharp\stm32f4xx_hal_tim_ex.o"
+"distance_ir_sharp\stm32f4xx_hal_uart.o"
+"distance_ir_sharp\stm32f4xx_hal_rcc.o"
+"distance_ir_sharp\stm32f4xx_hal_rcc_ex.o"
+"distance_ir_sharp\stm32f4xx_hal_flash.o"
+"distance_ir_sharp\stm32f4xx_hal_flash_ex.o"
+"distance_ir_sharp\stm32f4xx_hal_flash_ramfunc.o"
+"distance_ir_sharp\stm32f4xx_hal_gpio.o"
+"distance_ir_sharp\stm32f4xx_hal_dma_ex.o"
+"distance_ir_sharp\stm32f4xx_hal_dma.o"
+"distance_ir_sharp\stm32f4xx_hal_pwr.o"
+"distance_ir_sharp\stm32f4xx_hal_pwr_ex.o"
+"distance_ir_sharp\stm32f4xx_hal_cortex.o"
+"distance_ir_sharp\stm32f4xx_hal.o"
+"distance_ir_sharp\stm32f4xx_hal_exti.o"
+"distance_ir_sharp\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "distance_ir_sharp\distance_ir_sharp.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "distance_ir_sharp.map" -o distance_ir_sharp\distance_ir_sharp.axf
